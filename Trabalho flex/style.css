@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color: rgb(179, 144, 100);
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+.flex-container{
+display: flex;
+background-color: rgb(179, 144, 100);
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.flex-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(180, 182, 181, 0.699);
+    font-size: 20px;
+    
+}
+
+.flex-Noticias{
+    display: flex;
+    background-color: antiquewhite;
+    height: 100vh;
+    align-items: center;
+    font-size: 30px;
+}
+
+.Noticias-mundo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 144, 100);
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.Noticias-Brasil{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(100, 98, 94);
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    box-shadow: 10px 10px 13px -2px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 10px 10px 13px -2px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 10px 13px -2px rgba(0,0,0,0.59);
+}
+
+.Noticias-Brasil-1{
+    margin: 0;
+    order: 1;
+    padding: 0 10px 10px;
+}
+
+.flex-item4{
+    display: flex;
+    background: rgb(241,155,34);
+background: linear-gradient(4deg, rgba(241,155,34,1) 0%, rgba(241,155,34,1) 28%, rgba(230,188,42,1) 100%);
+justify-content: space-around;
+    padding: 30px;
+    font-size: 20px;
+    box-shadow: -1px -15px 13px -2px rgba(0,0,0,0.59);
+-webkit-box-shadow: -1px -15px 13px -2px rgba(0,0,0,0.59);
+-moz-box-shadow: -1px -15px 13px -2px rgba(0,0,0,0.59);
+}
+
+.contatos{
+}
+
+.fonte{
+}
+
+.item1{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.item2{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.item3{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.item4{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.item5{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.item6{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
